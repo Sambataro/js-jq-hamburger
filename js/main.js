@@ -8,7 +8,5 @@ $(".header-right").click(function() {
 });
 
 $(".close").click(function() {
- $(".hamburger-menu").hide();
+ $(".hamburger-menu").toggleClass("active");
 });
-
-// ora devo fare in modo che l'utente possa aprire e chiudere il menu all'infinito
